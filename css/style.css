@@ -1,0 +1,54 @@
+.navbar {
+    z-index: 1;
+}
+.navbar.navbar-light .navbar-nav .nav-item a.nav-link {
+    color: #303076;
+}
+.navbar.navbar-light .navbar-nav.nav-flex-icons a.nav-link {
+    color: #e7364a;
+}
+/* Required for full background image */
+
+html,
+body,
+.view {
+  height: 445px;
+}
+.rgba-gradient {
+    background: #303076;
+    background: -moz-linear-gradient(-45deg, #303076 50%, #e7364a 50%);
+    background: -webkit-linear-gradient(-45deg, #303076 50%,#e7364a 50%);
+    background: linear-gradient(135deg, #303076 50%,#e7364a 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#303076', endColorstr='#e7364a',GradientType=1 );
+}
+.btn {
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+.btn-rounded {
+    -webkit-box-shadow: 0px 8px 30px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow:    0px 8px 30px 0px rgba(0, 0, 0, 0.2);
+    box-shadow:         0px 8px 30px 0px rgba(0, 0, 0, 0.2);
+}
+h2 {
+    color: #303076;
+}
+h3 {
+    color: #e7364a;
+}
+
+.page-footer {
+    background: #303076;
+    color: #fff;
+}
+
+#clientes img {
+    max-width: 100%;
+    height: auto;
+}
+iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+}
